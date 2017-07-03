@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Peacher-Ton" />
+    <meta name="description" content="Personal website for Jason Peacher-Ton that hosts his
+                                        photography and various resume stuff" />
+    <meta name="ketwords" content"Photography, photographer, cybersecurity, resume" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="Camera-icon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script type="text/javascript" src="instafeed.js"></script>
+    <title>Jason Peacher-Ton Photography</title>
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <h1>Jason Peacher-Ton Photography</h1>
+        </header>
+        <nav class="navigation" role="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href='portfolio.html'>Portfolio</a></li>
+                <li><a href='https://www.flickr.com/photos/139828152@N04/albums/72157681113258792' target='_blank'>Photo-a-day Challenge</a></li>
+                <li>Prints</li>
+                <li><a href="AboutMe.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="instafeed">
+            <h3><i class="fa fa-instagram" aria-hidden="true"></i>Instagram Feed</h3>
+            <script type="text/javascript">
+                var userFeed = new Instafeed({
+                    get: 'user',
+                    userId: '3113653064',
+                    limit: 12,
+                    accessToken: '3113653064.1677ed0.f7b624862ed14b7b8485b3d19920233e',
+                    template: '<a href="{{link}}"><img src="{{image}}" style="padding: 10px"/></a>'
+                });
+                userFeed.run();
+            </script>
+        </div>
+
+    </div>
+
+    
+    
+    
+        
+
+</body>
+
+</html>
