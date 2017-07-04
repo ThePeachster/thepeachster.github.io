@@ -1,0 +1,159 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    /* The image used */
+    background-image: url("Silhouette-2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.otherBackground {
+    background-color: white; 
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.ordering {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    background: white;
+    border: 2px solid #dfdfdf;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.flex-container img {
+    max-width: 500px;
+    max-height: 300px;
+    width: auto;
+    height: 100%;
+}
+
+.header {
+    background-color: lightgray;
+    padding-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation, body {
+    text-decoration: none;
+}
+
+#instafeed {
+    margin: 0;
+    padding-left: 55px;
+    width: 45%;
+}
+
+#instafeed h3 {
+    padding-top: 50px;
+    text-align: left;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.navigation ul {
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+}
+
+.navigation li {
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#text {
+    padding-top:10px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#text img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 2px solid #b3c2bf;
+    border-radius: 10px;
+}
+
+.textbox {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background: rgba(0,0,0,.7); 
+    text-align:center;
+}
+
+#lightbox p {
+    text-align:right; 
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px;
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    max-width:940px;
+}
