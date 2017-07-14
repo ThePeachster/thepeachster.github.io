@@ -76,12 +76,12 @@
                     <img src="https://c1.staticflickr.com/5/4260/34886783883_03889a0d9f_b.jpg" alt="Island Living, Koh Yao Noi, Thailand"></a>
                 </div>
                 <div class="flex-container lightbox_trigger">
-                    <a href="https://c1.staticflickr.com/5/4231/35412192392_87dd084e5f_z.jpg">
-                    <img src="https://c1.staticflickr.com/5/4231/35412192392_87dd084e5f_b.jpg" alt="Autumn colors in Summer"></a>
+                    <a href="https://c1.staticflickr.com/5/4205/35801142025_f8e82c7d20_b.jpg">
+                    <img src="https://c1.staticflickr.com/5/4205/35801142025_f8e82c7d20_b.jpg" alt="Mt. Rainier at sunrise"></a>
                 </div>
                 <div class="flex-container lightbox_trigger">
-                    <a href="https://c1.staticflickr.com/5/4149/35309391250_dfcb98a9e1_b.jpg">
-                    <img src="https://c1.staticflickr.com/5/4149/35309391250_dfcb98a9e1_b.jpg" alt="Skogafoss Waterfall, Iceland"></a>
+                    <a href="https://c1.staticflickr.com/5/4215/35018369053_c82930b529.jpg">
+                    <img src="https://c1.staticflickr.com/5/4215/35018369053_c82930b529.jpg" alt="Snoqualmie River from Mt. Si"></a>
                 </div>
                 <div class="flex-container lightbox_trigger">
                     <a href="https://c2.staticflickr.com/4/3781/32890574233_d0e62dea0a_b.jpg">
@@ -129,6 +129,9 @@
                             $('body').append(lightbox);
                         }
                         $('#lightbox').on('click', 'div', function () {
+                            $('#lightbox').hide();
+                        });
+                        $('#lightbox').on('click', 'p', function () {
                             $('#lightbox').hide();
                         });
                     })

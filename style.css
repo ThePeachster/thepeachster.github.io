@@ -178,3 +178,9 @@ p a {
 p a:hover {
     color: black;
 }
+
+#copyright {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
